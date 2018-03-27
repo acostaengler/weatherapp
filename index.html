@@ -7,6 +7,15 @@
       <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
       <meta charset="UTF-8">
    </head>
+   <div id="icons"></div>
+    <script>
+     var container = document.getElementById('icons');
+     for (var i = 1; i < 48; i++) {
+       var image = new Image();
+       image.src = "icons/SVG/" + i + ".svg";
+       container.appendChild(image);
+     }
+    </script>
    <body>
       <html>
          <head>
