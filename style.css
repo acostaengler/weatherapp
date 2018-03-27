@@ -1,0 +1,49 @@
+body {
+	background-image: linear-gradient(to right, #f7f4d6, #c8e9d9, #b8e1de, #b1d7e1);
+	color: #4a4a4a;
+}
+
+h1 {
+	text-align: center;
+}
+
+.cityDiv {
+	display: flex;
+	justify-content: center;
+}
+
+.cityDiv>div {
+	margin: 5px;
+	background-color: #eb9861;
+	width: 20%;
+}
+
+.inputDiv {
+	display: flex;
+	justify-content: center;
+}
+
+.input {
+	width: 70%;
+	border: none;
+	padding: 7px;
+}
+
+.inputDiv>div {
+	background-color: rgb(255, 255, 255, 0.7);
+	border: solid white 1px;
+	border-radius: 2px;
+	padding: 35px 0;
+	width: 35%;
+	text-align: center;
+}
+
+.inputDiv p {
+	font-family: 'Pacifico', cursive;
+	margin: 0 0 10px 0;
+	font-size: 1.2rem;
+}
+
+.cityDiv p {
+	color: white;
+}
